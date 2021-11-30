@@ -79,12 +79,15 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     margin: 100px;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
     margin-left: 165px;
     padding: 0px;
   }
 }
-@media (min-width: 700px) {
+#third_section img {
+  height: 150px;
+}
+@media (min-width: 900px) {
   #fourth_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -92,7 +95,6 @@ p {
     gap: 10px;
     margin-top: 10px;
     margin: 100px;
-    margin-bottom: -50px;
     margin-left: 165px;
     padding: 0px;
   }
