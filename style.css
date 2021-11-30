@@ -6,12 +6,13 @@ main {
   display: grid;
   grid-template-columns: 1fr;
 }
-
-#layout_section {
-  display: grid;
-  width: 500px;
-  margin: 100px;
-  margin-left: 300px;
+@media (min-width: 800px) {
+  #layout_section {
+    display: grid;
+    width: 500px;
+    margin: 100px;
+    margin-left: 320px;
+  }
 }
 
 img,
